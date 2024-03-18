@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ECommerceBookStore.Models;
 
 namespace ECommerceBookStore.Controllers;
-
+// Any name followed by controller keyword is valid name 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -15,11 +15,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        //returns the view same named as Index as the name is not defined
         return View();
     }
 
     public IActionResult Privacy()
     {
+        //returns the Privacy same named as Index as the name is not defined
         return View();
     }
 

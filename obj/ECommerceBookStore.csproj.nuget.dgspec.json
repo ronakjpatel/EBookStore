@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ronakpatel/ECommerceProjectDotNetMVC/ECommerceBookStore/ECommerceBookStore.csproj": {}
+    "/Users/ronakpatel/ECommerceProjectDotNetMVC/EBookStore/ECommerceBookStore.csproj": {}
   },
   "projects": {
-    "/Users/ronakpatel/ECommerceProjectDotNetMVC/ECommerceBookStore/ECommerceBookStore.csproj": {
+    "/Users/ronakpatel/ECommerceProjectDotNetMVC/EBookStore/ECommerceBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ronakpatel/ECommerceProjectDotNetMVC/ECommerceBookStore/ECommerceBookStore.csproj",
+        "projectUniqueName": "/Users/ronakpatel/ECommerceProjectDotNetMVC/EBookStore/ECommerceBookStore.csproj",
         "projectName": "ECommerceBookStore",
-        "projectPath": "/Users/ronakpatel/ECommerceProjectDotNetMVC/ECommerceBookStore/ECommerceBookStore.csproj",
+        "projectPath": "/Users/ronakpatel/ECommerceProjectDotNetMVC/EBookStore/ECommerceBookStore.csproj",
         "packagesPath": "/Users/ronakpatel/.nuget/packages/",
-        "outputPath": "/Users/ronakpatel/ECommerceProjectDotNetMVC/ECommerceBookStore/obj/",
+        "outputPath": "/Users/ronakpatel/ECommerceProjectDotNetMVC/EBookStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ronakpatel/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
